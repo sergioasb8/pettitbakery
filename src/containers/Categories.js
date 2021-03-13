@@ -21,13 +21,13 @@ export const Categories = () => {
         <div className="categoryBox" id="categoryBox">
             <div className="listCategories">
                {
-                    categories.map(({id, nameCat, Image})=>(
+                    categories.map(({id, nameCat, imgCat})=>(
 
                         <CategoryCircle
                             key={id}
                             name={nameCat}
                             id={id}
-                            Image={Image}
+                            imgCat={imgCat}
                             handleActive={handleActive}
                             active={active}
                         />

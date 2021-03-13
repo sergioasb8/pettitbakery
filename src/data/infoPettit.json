@@ -189,22 +189,22 @@
       {
         "id":1,
         "nameCat":"brownie",
-        "Image": "https://i.imgur.com/RSV3IOA.png"
+        "imgCat": "https://i.imgur.com/RSV3IOA.png"
       },
       {
        "id":2,
        "nameCat":"torta",
-       "Image" : "https://i.imgur.com/V2IaEsb.png"
+       "imgCat" : "https://i.imgur.com/V2IaEsb.png"
       },
       {
        "id":3,
        "nameCat":"cupcake",
-       "Image": "https://i.imgur.com/agtDsar.png"
+       "imgCat": "https://i.imgur.com/agtDsar.png"
       },
       {
        "id":4,
        "nameCat":"pie",
-       "Image": "https://i.imgur.com/ek0fHIc.png"
+       "imgCat": "https://i.imgur.com/ek0fHIc.png"
       }
    ]
  }
