@@ -1,7 +1,12 @@
-.ProductContainer {
+.productSection {
     margin-top: 10vh;
-    height: 70vh;
+    height: 75vh;
     width: 95%;
+    margin-left: 2.5%;
     background-color: blue;
     z-index: 2;
+    overflow-y: scroll;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }

@@ -1,12 +1,34 @@
-import React from 'react';
+import React, { useContext } from 'react'
 import '../../assets/styles/Home.css';
 import { ProductContainer } from '../../containers/ProductContainer';
 import { Footer } from '../pieces/Footer';
 import { Header } from '../pieces/Header';
 import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 import { Categories } from '../../containers/Categories';
+import { Context } from '../context/Context'
+import { Product } from '../pieces/Product';
 
 function Home () {
+
+    const {idcategory,categoryName, infoProduct, onAdd, onRemove} = useContext(Context)
+
+    let productRender =[];
+
+
+    // Validamos que la primera pantalla solo muestre la categoria recomendados
+
+    infoProduct.forEach(element => {
+
+     if (idcategory === 1 && element.category === "brownie" )   {
+        productRender.push(element);
+     }  else    if(element.category === categoryName && element.category!== "brownie")  {
+        productRender.push(element);
+     }
+    });
+
+    console.log(infoProduct);
+    console.log(productRender);
+    console.log(idcategory);
     return (
         <div className='Home'>
             <Header />
@@ -14,7 +36,20 @@ function Home () {
 
                 <Categories /> 
                 <ProductContainer>
-
+                {
+                    productRender.map(({id,nameProduct,price,Image,amount})=>(
+                        <Product
+                            key={id}
+                            nameProduct={nameProduct}
+                            price={price}
+                            Image={Image}
+                            amount={amount}
+                            onAdd = {onAdd}
+                            onRemove = {onRemove}
+                            id={id}
+                        />
+                    ))
+                }
                 </ProductContainer>
             </div>
             <Footer Icons={faShoppingCart} liknRoute="/auth/cart"/>

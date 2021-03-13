@@ -1,10 +1,10 @@
 import React from 'react';
 import '../assets/styles/ProductContainer.css';
 
-export const ProductContainer = () => {
+export const ProductContainer = ({children}) => {
     return (
-        <div className="ProductContainer">
-
-        </div>
+        <section className="productSection" id="productSection">
+            {children}
+        </section>
     )
 }
