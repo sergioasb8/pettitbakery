@@ -1,13 +1,19 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { AppRouter } from '../routers/AppRouter';
 import { Context } from './context/Context';
-import {infoProduct,categories} from '../data/infoPettit.json'
+import {infoProduct, categories} from '../data/infoPettit.json';
 
 function App() {
 
+  const [idcategory, setIdCategory] = useState(1);
+  const [categoryName, setCategoryName] = useState("");
+
   let dataContext = {
     infoProduct, 
-    categories
+    categories,
+    setIdCategory,
+    setCategoryName,
+    categoryName,
   }
 
   return (

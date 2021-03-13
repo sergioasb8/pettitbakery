@@ -1,0 +1,30 @@
+
+.listCategories {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 8vh;
+    margin-top: 12vh;
+    justify-content: space-around;
+}
+.categoryCircle {
+    width: 9vh;
+    height: 9vh;
+    border-radius: 50%;
+    background-color: #ffffff;
+}
+
+.categoryImage {
+    width: 8vh;
+    height: 8vh;
+    border-radius: 50%;
+    background-color: #ffffff;
+}
+
+.categoryImage.active {
+    width: 8vh;
+    height: 8vh;
+    border-radius: 50%;
+    background-color: #9b5f50;
+}
