@@ -1,0 +1,9 @@
+.HomeContainer {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background: #f7af9d;
+    border: 1px solid #f7af9d;
+    margin-top: -13vh;
+    z-index: 0;
+}

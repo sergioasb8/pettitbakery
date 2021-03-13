@@ -1,0 +1,7 @@
+.ProductContainer {
+    margin-top: 10vh;
+    height: 70vh;
+    width: 95%;
+    background-color: blue;
+    z-index: 2;
+}

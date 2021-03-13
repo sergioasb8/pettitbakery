@@ -1,0 +1,206 @@
+{
+    "infoProduct":[
+    {
+        "id": 1,
+        "category": "torta",
+        "nameProduct": "Personaliza tu torta 1/4 libra",
+        "price": 0,
+        "amount": 0,
+        "Image": "https://i.imgur.com/V2IaEsb.png"
+    },
+    {
+        "id": 2,
+        "category": "torta",
+        "nameProduct": "Torta de Chocolate 1/4 libra",
+        "price": 45000,
+        "amount": 0,
+        "Image": "https://i.imgur.com/rOp6CSN.png"
+    },
+    {
+        "id": 3,
+        "nameProduct": "Torta de flores 1/4 libra",
+        "price": 50000,
+        "amount": 0,
+        "category": "torta",
+        "Image": "https://i.imgur.com/p13BuRv.jpg"
+    },
+    {
+        "id": 4,
+        "nameProduct": "Torta unicornio en fondant 1/4 libra",
+        "price": 60000,
+        "amount": 0,
+        "category": "torta",
+        "Image": "https://i.imgur.com/y2Muyyv.jpg"
+    },
+    {
+        "id": 5,
+        "nameProduct": "Torta jarra de cerveza 1/4 libra",
+        "price": 45000,
+        "amount": 0,
+        "category": "torta",
+        "Image": "https://i.imgur.com/uI8pJrg.png"
+    },
+    {
+        "id": 6,
+        "nameProduct": "Torta ingeniero / arquitecto 1/4 libra",
+        "price": 50000,
+        "amount": 0,
+        "category": "torta",
+        "Image": "https://i.imgur.com/YEhzxik.jpg"
+    },
+    {
+        "id": 7,
+        "nameProduct": "Torta básica 1/4 libra",
+        "price": 35000,
+        "amount": 0,
+        "category": "torta",
+        "Image": "https://i.imgur.com/zeMlSbm.jpg"
+    },
+    {
+        "id": 8,
+        "nameProduct": "Torta super hero 1/4 libra",
+        "price": 45000,
+        "amount": 0,
+        "category": "torta",
+        "Image": "https://i.imgur.com/0Tpt0k4.jpg"
+    }, 
+    {
+        "id": 9,
+        "nameProduct": "Torta letra o número 1/4 libra",
+        "price": 40000,
+        "amount": 0,
+        "category": "torta",
+        "Image": "https://i.imgur.com/6nfZs6V.png"
+    }, 
+    {
+        "id": 10,
+        "nameProduct": "Torta bicicleta 1/4 libra",
+        "price": 45000,
+        "amount": 0,
+        "category": "torta",
+        "Image": "https://i.imgur.com/wUBdQXc.png"
+    },   
+    {
+        "id": 11,
+        "nameProduct": "Torta animales 1/4 libra",
+        "price": 50000,
+        "amount": 0,
+        "category": "torta",
+        "Image": "https://i.imgur.com/ZVKATTA.jpg"
+    },   
+    {
+        "id": 12,
+        "nameProduct": "Torta Coca Cola 1/4 libra",
+        "price": 45000,
+        "amount": 0,
+        "category": "torta",
+        "Image": "https://i.imgur.com/FRB1Wcv.jpg"
+    },
+    {
+        "id": 13,
+        "nameProduct": "Torta Harry Potter 1/4 libra",
+        "price": 45000,
+        "amount": 0,
+        "category": "torta",
+        "Image": "https://i.imgur.com/0l9540Y.png"
+    },
+    {
+        "id": 14,
+        "nameProduct": "Torta Control de Play 1/4 libra",
+        "price": 60000,
+        "amount": 0,
+        "category": "torta",
+        "Image": "https://i.imgur.com/od8520H.png"
+    },
+    {
+        "id": 15,
+        "nameProduct": "Torta de grado 1/4 libra",
+        "price": 45000,
+        "amount": 0,
+        "category": "torta",
+        "Image": "https://i.imgur.com/Ve3jqDG.jpg"
+    },
+    {
+        "id": 16,
+        "nameProduct": "Torta de unicornio 1/4 libra",
+        "price": 50000,
+        "amount": 0,
+        "category": "torta",
+        "Image": "https://i.imgur.com/axZ1ado.jpg"
+    },
+    {
+        "id": 17,
+        "nameProduct": "Torta de serpiente 1/4 libra",
+        "price": 60000,
+        "amount": 0,
+        "category": "torta",
+        "Image": "https://i.imgur.com/STcrczg.png"
+    },
+    {
+        "id": 18,
+        "nameProduct": "Torta de oso 1/4 libra",
+        "price": 50000,
+        "amount": 0,
+        "category": "torta",
+        "Image": "https://i.imgur.com/R8uizpf.png"
+    },
+    {
+        "id": 55,
+        "nameProduct": "Brownie corazón caja X6",
+        "price": 23000,
+        "amount": 0,
+        "category": "brownie",
+        "Image": "https://i.imgur.com/oD76nGE.png"
+    },
+    {
+        "id": 56,
+        "nameProduct": "Brownie square caja X6",
+        "price": 23000,
+        "amount": 0,
+        "category": "brownie",
+        "Image": "https://i.imgur.com/m2yX6Oi.png"
+    },
+    {
+        "id": 57,
+        "nameProduct": "Caja X6  en Fondant",
+        "price": 30000,
+        "amount": 0,
+        "category": "cupcake",
+        "Image": "https://i.imgur.com/KcxbBx6.jpg"
+    },
+    {
+        "id": 58,
+        "nameProduct": "Caja X6 en glaceado",
+        "price": 25000,
+        "amount": 0,
+        "category": "cupcake",
+        "Image": "https://i.imgur.com/moFMTKF.jpg"
+    },
+    {
+        "id": 59,
+        "nameProduct": "pie",
+        "price": 30000,
+        "amount": 0,
+        "category": "pie",
+        "Image": "https://i.imgur.com/JXnj5vP.jpg"
+    }
+   ],
+   "categories":[
+      {
+        "id":1,
+        "nameCat":"brownie"
+      },
+      {
+       "id":2,
+       "nameCat":"torta"
+      },
+      {
+       "id":3,
+       "nameCat":"cupcake"
+      },
+      {
+       "id":4,
+       "nameCat":"pie"
+      }
+   ]
+ }

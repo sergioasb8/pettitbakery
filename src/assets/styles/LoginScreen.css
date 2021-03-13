@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+
+.ImageContainer {
+    z-index: 0;
+    width: 100%;
+    height: 200px;
+    top: 0px;
+}
+
+.VectorBg {
+    width: 100%;
+}
+
+.Rectangle {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background: #f7af9d;
+    border: 1px solid #f7af9d;
+    margin-top: 0px;
+    z-index: 3;
+    padding-bottom: 15vh;
+}
+
+.HalfCircle {
+    position: absolute;
+    width: 50vw;
+    height: 50vw;
+    background: #f7af9d;
+    border: 1px solid #f7af9d;
+    border-radius: 50%;
+    margin-left: 25%;
+    margin-top: -25vw;
+    text-align: center;
+    z-index: 1;
+}
+
+.logoPettit{
+    height: 70%;
+    margin-top: 10%;
+}
+
+.UnicornContainer {
+    width: 95%;
+    margin-left: 2.5%;
+    height: 90vw;
+    background-color: blanchedalmond;
+    border-radius: 30%;
+    margin-top: 18vh;
+    z-index: 2;
+}
+
+.UnicornCake {
+    width: 90%;
+    margin-left: 5%;
+    border-radius: 40%;
+    height: 95%;
+    margin-top: 2.5%;
+}

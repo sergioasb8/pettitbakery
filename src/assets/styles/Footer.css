@@ -1,0 +1,79 @@
+.mainFooter {
+    background-color: white;
+    padding-top: 1vh;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 10vh;
+}
+
+.rowFooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.colIcons {
+    height: 7.5vh;
+    width: 25vw;
+    color: #f7af9d;
+    background-color: #f8f8f8;
+    border: 2px solid#f7af9d;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.socialMedia {
+    padding-left: 0.5vh;
+    padding-right: 0.5vh;
+}
+.mediaIcon {
+    height: 6vh;
+    font-size: 4vh;
+    color: #f7af9d;
+    margin-top: 0.7vh;
+}
+
+.colTotal {
+    width: 45vw;
+    height: 7.5vh;
+    background-color: #f7af9d;
+    border: 0.5px solid rgb(255, 255, 255) ;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.TextFooter {
+    margin-top: 1.75vh;
+    font-size: 6vw;
+}
+
+.colShop {
+    height: 7.5vh;
+    width: 7.5vh;
+    text-align: center;
+    color: #e2a596;
+    background-color: #f8f8f8;
+    border: 2px solid#e2a596;
+    border-radius: 50%;
+}
+
+.colLoginShop {
+    display: flex;
+    flex-direction: row;
+    height: 7.5vh;
+    width: 30vh;
+    justify-content: space-evenly;
+    color: #e2a596;
+    background-color: #f8f8f8;
+    border: 2px solid#e2a596;
+    border-radius: 30px;
+}
+
+.TextLogin {
+    font-weight: bolder;
+}
+
+.LinkHome {
+    text-decoration: none;
+}
