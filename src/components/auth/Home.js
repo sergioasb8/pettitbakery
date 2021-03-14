@@ -10,7 +10,7 @@ import { Product } from '../pieces/Product';
 
 function Home () {
 
-    const {idcategory,categoryName, infoProduct, onAdd, carItems, newProducts} = useContext(Context)
+    const {idcategory,categoryName, infoProduct, onAdd, carItems, newProducts, onRemove} = useContext(Context)
 
     // array to save the products of each category to show
     let productRender =[];
@@ -40,6 +40,8 @@ function Home () {
                             key = {item.id}
                             item = {item}
                             onAdd = {onAdd}
+                            onRemove = {onRemove}
+                            newProducts = {newProducts}
                         />
                     ))
                 }

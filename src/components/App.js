@@ -38,6 +38,28 @@ function App() {
         }
 
     }
+
+    // creating a function to add products to our shopping car
+    const onRemove = (product) => {
+
+        const category = newProducts.find(y => y.id === product.id);
+
+        if(category.amount > 0) {
+            setNewProducts(newProducts.map(y => y.id === product.id?
+                {...category, amount: category.amount -1} : y))
+        }
+        
+        const exist = carItems.find((x) => x.id === product.id);
+        if (exist) {
+            if(exist.amount === 1) {
+                setCarItems(carItems.filter((x) => x.id !== product.id));
+            } else {
+                setCarItems(carItems.map(x => x.id === product.id ? 
+                {...exist, amount: exist.amount - 1} : x));
+            }
+        }
+      
+    }
     let dataContext = {
         infoProduct, 
         categories,
@@ -46,6 +68,7 @@ function App() {
         setCategoryName,
         categoryName, 
         onAdd, 
+        onRemove,
         carItems, 
         newProducts
     }
