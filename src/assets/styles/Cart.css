@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+
+.CartContainer {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background: #f7af9d;
+    border: 1px solid #f7af9d;
+    margin-top: -13vh;
+    z-index: 0;
+}
+
+.OrderTitle {
+    font-size: 5vh;
+    font-family: 'Akaya Telivigala', cursive;
+    text-align: center;
+    margin-top: 12vh;
+}

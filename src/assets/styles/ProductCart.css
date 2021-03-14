@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+
+.ProductContainer {
+    height: 35vh;
+    width: 42vw;
+    margin-top: 1vh;
+    border-radius: 15px;
+    background-color: #f3d1d1e3;
+    border: 2px solid #ffffff;
+}
+
+.ProductNameContainer {
+    width: 40vw;
+    height: 5vh;
+    margin-top: 0vw;
+    margin-left: 1.5vw;
+    text-align: center;
+}
+
+.ProductName {
+    margin-top: 2vw;
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 5vw;
+    color: black;
+}
+
+.ProductImage {
+    width: 30vw;
+    height: 30vw;
+    margin-top: 3vh;
+    margin-left: 5.5vw;
+    border-radius: 50%;
+    background-color: #ffffff;
+    border: 2px solid #ffffff;
+}
+
+.CakeImage {
+    width: 30vw;
+    height: 30vw;
+    border-radius: 50%;
+}
+
+.buttonsContainer {
+    width: 94%;
+    height: 5vh;
+    background: #ff9aa2;
+    margin-left: 3%;
+    margin-top: 1vh;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #ffffff;
+    border-radius: 30px;
+    justify-content: space-between;
+}
+
+.buttonPrice {
+    width: 4.8vh;
+    height: 4.8vh;
+    border-radius: 50%;
+    border: 1px solid #f7af9d;
+    background-color: #ffffff;
+}
+
+.divText {
+    font-size: 2.3vh;
+    margin-top: 1vh;
+}
+
+.divText.Price {
+    margin-left: 0.5vh;
+}
