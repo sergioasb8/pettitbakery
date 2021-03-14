@@ -9,8 +9,12 @@ export const Footer = ( {Icons, liknRoute} ) => {
         <div className="mainFooter">
                 <div className="rowFooter">
                     <div className="colIcons">
-                        <FontAwesomeIcon icon={faFacebook} className="mediaIcon socialMedia"/>
-                        <FontAwesomeIcon icon={faInstagram} className="mediaIcon socialMedia"/>
+                        <a href='https://www.facebook.com/Pettitbakery' className='Ref'>
+                            <FontAwesomeIcon icon={faFacebook} className="mediaIcon socialMedia"/>
+                        </a>
+                        <a href='https://www.instagram.com/pettitbakery/' className='Ref'>
+                            <FontAwesomeIcon icon={faInstagram} className="mediaIcon socialMedia"/>
+                        </a>
                     </div>
                     <div className="colTotal">
                         <p className="TextFooter">$ 77.000</p>
