@@ -14,7 +14,7 @@ function Cart () {
 
                 </ProductContainer>
             </div>
-            <Footer Icons={faArrowAltCircleLeft} liknRoute="/auth/home"/>
+            <Footer Icons={faArrowAltCircleLeft} liknRoute="/auth/home" carItems={carItems}/>
         </div>
     )
 }
