@@ -31,7 +31,8 @@ function Home () {
             <div className='HomeContainer'>
 
                 <Categories /> 
-                <CakeCategories />
+                {idcategory === 2 ? <CakeCategories /> : ""}
+                {idcategory > 4 ? <CakeCategories /> : ""}
                 <ProductContainer>
                 {
                     productRender.map((item)=>(

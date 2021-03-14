@@ -5,12 +5,11 @@ import {infoProduct, categories, cakesize} from '../data/infoPettit.json';
 
 function App() {
 
-  // useState to save the selected category
+    // useState to save the selected category
     const [idcategory, setIdCategory] = useState(1);
     const [categoryName, setCategoryName] = useState("");
-    // use to save the selected size
-    const [idSize, setIdSize] = useState(5);
-    const [sizeName, setSizeName] = useState("");
+    // useState to capture what we will render
+    const [active, setActive] = useState(1)
     // creating a const where we will update the list of selected products (shopping car)
     const [carItems, setCarItems] = useState([]);
     // Creating a copy of produts in an useState so we can manipulate it
@@ -75,10 +74,8 @@ function App() {
         onRemove,
         carItems, 
         newProducts,
-        idSize,
-        setIdSize,
-        sizeName,
-        setSizeName
+        active, 
+        setActive
     }
      
     return (
