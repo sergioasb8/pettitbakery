@@ -1,0 +1,21 @@
+.SendContainer {
+    width: 60%;
+    height: 8vh;
+    margin-left: 20%;
+    background-color: rgb(255, 255, 255);
+    border: 0.5px solid #da5863;
+    border-radius: 30px;
+    margin-bottom: 3vh;
+}
+
+.WhatsappContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-decoration: none;
+    color: #da5863;
+}
+.Whatsapp {
+    margin-top: 1vh;
+    font-size: 6vh;
+}

@@ -16,7 +16,7 @@
 .colIcons {
     height: 7.5vh;
     width: 25vw;
-    color: #f7af9d;
+    color: #da5863;
     background-color: #f8f8f8;
     border: 2px solid#f7af9d;
     border-radius: 30px;
@@ -30,7 +30,7 @@
 .mediaIcon {
     height: 6vh;
     font-size: 4vh;
-    color: #f7af9d;
+    color: #da5863;
     margin-top: 0.7vh;
 }
 
@@ -38,7 +38,7 @@
     width: 45vw;
     height: 7.5vh;
     background-color: #f7af9d;
-    border: 0.5px solid rgb(255, 255, 255) ;
+    border: 0.5px solid #f7af9d ;
     border-radius: 30px;
     text-align: center;
 }

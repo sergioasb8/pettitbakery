@@ -6,6 +6,7 @@ import { Header } from '../pieces/Header';
 import { faArrowAltCircleLeft } from '@fortawesome/free-solid-svg-icons';
 import { Context } from '../context/Context'
 import { ProductCart } from '../pieces/ProductCart';
+import { Whatsapp } from '../pieces/Whatsapp';
 
 function Cart () {
 
@@ -29,6 +30,7 @@ function Cart () {
                         ))
                     }
                 </ProductContainer>
+                <Whatsapp carItems={carItems}/>
             </div>
             <Footer Icons={faArrowAltCircleLeft} liknRoute="/auth/home" carItems={carItems}/>
         </div>
