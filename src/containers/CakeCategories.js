@@ -5,14 +5,14 @@ import { CategorySize } from "../components/pieces/CategorySize";
 
 export const CakeCategories = () => {
 
-    const {setIdSize,setSizeName,cakesize} = useContext(Context);
+    const {setIdCategory,setCategoryName,cakesize} = useContext(Context);
 
     const [activeCat, setActiveCat] = useState(5);
 
     const handleActiveCat = (sizeActive, nameSize) => {
         setActiveCat(sizeActive);
-        setIdSize((idSize)=>idSize=sizeActive)
-        setSizeName((nameSiz)=>nameSiz=nameSize)
+        setIdCategory((idSize)=>idSize=sizeActive)
+        setCategoryName((nameSiz)=>nameSiz=nameSize)
     }
     
     return (

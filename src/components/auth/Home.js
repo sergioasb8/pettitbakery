@@ -25,9 +25,6 @@ function Home () {
         }
     });
 
-    console.log(idcategory);
-    console.log(carItems);
-    console.log(newProducts);
     return (
         <div className='Home'>
             <Header />
