@@ -1,13 +1,13 @@
 import React from 'react';
 import '../../assets/styles/Product.css';
 
-export const Product = ({item}) => {
+export const Product = ({nameProduct, price, amount}) => {
 
-    let showPrice = (new Intl.NumberFormat("es-CO", {style: "currency", currency: "COP", maximumFractionDigits: 0}).format(item.price));
+    let showPrice = (new Intl.NumberFormat("es-CO", {style: "currency", currency: "COP", maximumFractionDigits: 0}).format(price));
     return (
         <div className="ProductContainer">
             <div className='ProductNameContainer'>
-                    <h3 className='ProductName'>{item.nameProduct}</h3>
+                    <h3 className='ProductName'>{nameProduct}</h3>
             </div>
             <div className='ProductImage' >
                 {/* <img src={item.imgPro} alt='Personaliza tu torta' className='CakeImage'/> */}
@@ -20,7 +20,7 @@ export const Product = ({item}) => {
                         <button className='PlusCounter'>+</button>
                         <div className='CircleCounter'>
                             <p className='NumberCounter'>
-                                {item.amount}
+                                {amount}
                             </p>
                         </div>
                         <button className='MinusCounter'>-</button>

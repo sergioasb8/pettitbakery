@@ -35,10 +35,13 @@ function Home () {
                 <Categories /> 
                 <ProductContainer>
                 {
-                    productRender.map((item)=>(
+                    productRender.map(({id, nameProduct, price, amount})=>(
                         <Product
-                            key = {item.id}
-                            item = {item}
+                            key = {id}
+                            nameProduct = {nameProduct}
+                            price = {price}
+                            amount = {amount}
+                            id = {id}
                         />
                     ))
                 }
