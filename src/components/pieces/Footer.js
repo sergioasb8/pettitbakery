@@ -4,7 +4,15 @@ import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons';
 
-export const Footer = ( {Icons, liknRoute} ) => {
+export const Footer = ( {Icons, liknRoute, carItems} ) => {
+
+    const itemsPrice = carItems.reduce((a, c) => a + c.price * c.amount, 0);
+
+    let showTotal = new Intl.NumberFormat("es-CO", {
+        style: "currency", 
+        currency: "COP", 
+        maximumFractionDigits: 0}).format(itemsPrice);
+
     return (
         <div className="mainFooter">
                 <div className="rowFooter">
@@ -17,7 +25,7 @@ export const Footer = ( {Icons, liknRoute} ) => {
                         </a>
                     </div>
                     <div className="colTotal">
-                        <p className="TextFooter">$ 77.000</p>
+                        <p className="TextFooter">{showTotal}</p>
                     </div>
                     <Link to={liknRoute} className='LinkCart'>
                         <div className="colShop">

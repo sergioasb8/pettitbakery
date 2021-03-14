@@ -47,7 +47,7 @@ function Home () {
                 }
                 </ProductContainer>
             </div>
-            <Footer Icons={faShoppingCart} liknRoute="/auth/cart"/>
+            <Footer Icons={faShoppingCart} liknRoute="/auth/cart" carItems={carItems}/>
         </div>
     )
 }
