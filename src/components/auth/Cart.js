@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useContext } from 'react'
 import '../../assets/styles/Home.css';
 import { ProductContainer } from '../../containers/ProductContainer';
 import { Footer } from '../pieces/Footer';
@@ -6,6 +6,9 @@ import { Header } from '../pieces/Header';
 import { faArrowAltCircleLeft } from '@fortawesome/free-solid-svg-icons';
 
 function Cart () {
+
+    const {carItems} = useContext(Context)
+
     return (
         <div className='Cart'>
             <Header />
