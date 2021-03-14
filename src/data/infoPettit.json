@@ -6,7 +6,7 @@
         "nameProduct": "Personaliza tu torta 1/4 libra",
         "price": 0,
         "amount": 0,
-        "imgPro": "https://i.imgur.com/V2IaEsb.png"
+        "imgPro": "https://i.imgur.com/1J0zca2.png"
     },
     {
         "id": 2,
@@ -14,7 +14,7 @@
         "nameProduct": "Torta de Chocolate 1/4 libra",
         "price": 45000,
         "amount": 0,
-        "imgPro": "https://i.imgur.com/rOp6CSN.png"
+        "imgPro": "https://i.imgur.com/JDXxVgm.png"
     },
     {
         "id": 3,
@@ -22,7 +22,7 @@
         "price": 50000,
         "amount": 0,
         "category": "torta",
-        "imgPro": "https://i.imgur.com/p13BuRv.jpg"
+        "imgPro": "https://i.imgur.com/Ha0fLZL.jpg"
     },
     {
         "id": 4,
@@ -30,7 +30,7 @@
         "price": 60000,
         "amount": 0,
         "category": "torta",
-        "imgPro": "https://i.imgur.com/y2Muyyv.jpg"
+        "imgPro": "https://i.imgur.com/FCDqpzE.jpg"
     },
     {
         "id": 5,
@@ -38,7 +38,7 @@
         "price": 45000,
         "amount": 0,
         "category": "torta",
-        "imgPro": "https://i.imgur.com/uI8pJrg.png"
+        "imgPro": "https://i.imgur.com/VbwFVDf.png"
     },
     {
         "id": 6,
@@ -46,7 +46,7 @@
         "price": 50000,
         "amount": 0,
         "category": "torta",
-        "imgPro": "https://i.imgur.com/YEhzxik.jpg"
+        "imgPro": "https://i.imgur.com/96dYbmq.jpg"
     },
     {
         "id": 7,
@@ -54,7 +54,7 @@
         "price": 35000,
         "amount": 0,
         "category": "torta",
-        "imgPro": "https://i.imgur.com/zeMlSbm.jpg"
+        "imgPro": "https://i.imgur.com/5lLvaZ5.jpg"
     },
     {
         "id": 8,
@@ -62,7 +62,7 @@
         "price": 45000,
         "amount": 0,
         "category": "torta",
-        "imgPro": "https://i.imgur.com/0Tpt0k4.jpg"
+        "imgPro": "https://i.imgur.com/hWTxvuF.jpg"
     }, 
     {
         "id": 9,
@@ -70,7 +70,7 @@
         "price": 40000,
         "amount": 0,
         "category": "torta",
-        "imgPro": "https://i.imgur.com/6nfZs6V.png"
+        "imgPro": "https://i.imgur.com/wVUv4MX.png"
     }, 
     {
         "id": 10,
@@ -78,7 +78,7 @@
         "price": 45000,
         "amount": 0,
         "category": "torta",
-        "imgPro": "https://i.imgur.com/wUBdQXc.png"
+        "imgPro": "https://i.imgur.com/p37AIlQ.png"
     },   
     {
         "id": 11,
@@ -86,7 +86,7 @@
         "price": 50000,
         "amount": 0,
         "category": "torta",
-        "imgPro": "https://i.imgur.com/ZVKATTA.jpg"
+        "imgPro": "https://i.imgur.com/65jeKIk.jpg"
     },   
     {
         "id": 12,
@@ -94,7 +94,7 @@
         "price": 45000,
         "amount": 0,
         "category": "torta",
-        "imgPro": "https://i.imgur.com/FRB1Wcv.jpg"
+        "imgPro": "https://i.imgur.com/7JVgkVt.png"
     },
     {
         "id": 13,
@@ -102,7 +102,7 @@
         "price": 45000,
         "amount": 0,
         "category": "torta",
-        "imgPro": "https://i.imgur.com/0l9540Y.png"
+        "imgPro": "https://i.imgur.com/9uxCyeI.png"
     },
     {
         "id": 14,
@@ -110,7 +110,7 @@
         "price": 60000,
         "amount": 0,
         "category": "torta",
-        "imgPro": "https://i.imgur.com/od8520H.png"
+        "imgPro": "https://i.imgur.com/SUsMa5h.png"
     },
     {
         "id": 15,
@@ -118,7 +118,7 @@
         "price": 45000,
         "amount": 0,
         "category": "torta",
-        "imgPro": "https://i.imgur.com/Ve3jqDG.jpg"
+        "imgPro": "https://i.imgur.com/Fbo8SHJ.jpg"
     },
     {
         "id": 16,
@@ -126,7 +126,7 @@
         "price": 50000,
         "amount": 0,
         "category": "torta",
-        "imgPro": "https://i.imgur.com/axZ1ado.jpg"
+        "imgPro": "https://i.imgur.com/rdfdiVc.jpg"
     },
     {
         "id": 17,
@@ -134,7 +134,7 @@
         "price": 60000,
         "amount": 0,
         "category": "torta",
-        "imgPro": "https://i.imgur.com/STcrczg.png"
+        "imgPro": "https://i.imgur.com/rFnFCrJ.png"
     },
     {
         "id": 18,
@@ -142,7 +142,7 @@
         "price": 50000,
         "amount": 0,
         "category": "torta",
-        "imgPro": "https://i.imgur.com/R8uizpf.png"
+        "imgPro": "https://i.imgur.com/ym2XhO9.png"
     },
     {
         "id": 55,
@@ -150,7 +150,7 @@
         "price": 23000,
         "amount": 0,
         "category": "brownie",
-        "imgPro": "https://i.imgur.com/oD76nGE.png"
+        "imgPro": "https://i.imgur.com/hyXDe7D.png"
     },
     {
         "id": 56,
@@ -158,7 +158,7 @@
         "price": 23000,
         "amount": 0,
         "category": "brownie",
-        "imgPro": "https://i.imgur.com/m2yX6Oi.png"
+        "imgPro": "https://i.imgur.com/ztzX77T.png"
     },
     {
         "id": 57,
@@ -166,7 +166,7 @@
         "price": 30000,
         "amount": 0,
         "category": "cupcake",
-        "imgPro": "https://i.imgur.com/KcxbBx6.jpg"
+        "imgPro": "https://i.imgur.com/D893meC.png"
     },
     {
         "id": 58,
@@ -174,7 +174,7 @@
         "price": 25000,
         "amount": 0,
         "category": "cupcake",
-        "imgPro": "https://i.imgur.com/moFMTKF.jpg"
+        "imgPro": "https://i.imgur.com/01DXuGF.jpg"
     },
     {
         "id": 59,
@@ -182,7 +182,7 @@
         "price": 30000,
         "amount": 0,
         "category": "pie",
-        "imgPro": "https://i.imgur.com/JXnj5vP.jpg"
+        "imgPro": "https://i.imgur.com/H2ovAPV.jpg"
     }
    ],
    "categories":[
