@@ -14,9 +14,7 @@ function App() {
       idcategory,
       setIdCategory,
       setCategoryName,
-      categoryName,
-      newProducts,
-      carItems
+      categoryName
     }
      
   return (
