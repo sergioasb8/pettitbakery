@@ -4,6 +4,7 @@ import { ProductContainer } from '../../containers/ProductContainer';
 import { Footer } from '../pieces/Footer';
 import { Header } from '../pieces/Header';
 import { faArrowAltCircleLeft } from '@fortawesome/free-solid-svg-icons';
+import { Context } from '../context/Context'
 
 function Cart () {
 
