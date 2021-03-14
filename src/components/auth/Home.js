@@ -10,7 +10,7 @@ import { Product } from '../pieces/Product';
 
 function Home () {
 
-    const {idcategory,categoryName, infoProduct, onAdd, onRemove, carItems, newProducts} = useContext(Context)
+    const {idcategory,categoryName, infoProduct, carItems, newProducts} = useContext(Context)
 
     let productRender =[];
 

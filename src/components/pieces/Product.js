@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../assets/styles/Product.css';
 
-export const Product = ({item,onAdd,onRemove}) => {
+export const Product = ({item}) => {
 
     let showPrice = (new Intl.NumberFormat("es-CO", {style: "currency", currency: "COP", maximumFractionDigits: 0}).format(item.price));
     return (
@@ -17,13 +17,13 @@ export const Product = ({item,onAdd,onRemove}) => {
                 <div className='ContainerPrice'>
                     <p className='ProductPrice'>{showPrice}</p>
                     <div className='ContainerCounter'>
-                        <button className='PlusCounter' onClick={() => onAdd(item)}>+</button>
+                        <button className='PlusCounter'>+</button>
                         <div className='CircleCounter'>
                             <p className='NumberCounter'>
                                 {item.amount}
                             </p>
                         </div>
-                        <button className='MinusCounter' onClick={() => onRemove(item)}>-</button>
+                        <button className='MinusCounter'>-</button>
                     </div>
                 </div>
             </div>
