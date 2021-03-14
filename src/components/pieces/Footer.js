@@ -8,10 +8,12 @@ export const Footer = ( {Icons, liknRoute, carItems} ) => {
 
     const itemsPrice = carItems.reduce((a, c) => a + c.price * c.amount, 0);
 
-    let showTotal = new Intl.NumberFormat("es-CO", {
-        style: "currency", 
-        currency: "COP", 
-        maximumFractionDigits: 0}).format(itemsPrice);
+    //Asign the correct format to price values
+    const formatter = new Intl.NumberFormat('es-CO',{
+        style: 'currency',
+        currency: 'COP',
+        minimumFractionDigits: 0
+    })
 
     return (
         <div className="mainFooter">
@@ -25,7 +27,7 @@ export const Footer = ( {Icons, liknRoute, carItems} ) => {
                         </a>
                     </div>
                     <div className="colTotal">
-                        <p className="TextFooter">{showTotal}</p>
+                        <p className="TextFooter">{formatter.format(itemsPrice)}</p>
                     </div>
                     <Link to={liknRoute} className='LinkCart'>
                         <div className="colShop">
