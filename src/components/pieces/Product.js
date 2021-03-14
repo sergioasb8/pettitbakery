@@ -10,7 +10,7 @@ export const Product = ({item}) => {
                     <h3 className='ProductName'>{item.nameProduct}</h3>
             </div>
             <div className='ProductImage' >
-                <img src={item.imgPro} alt='Personaliza tu torta' className='CakeImage'/>
+                {/* <img src={item.imgPro} alt='Personaliza tu torta' className='CakeImage'/> */}
             </div>                
             
             <div className='ProductPriceContainer' >
