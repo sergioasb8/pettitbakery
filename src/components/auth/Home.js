@@ -41,8 +41,6 @@ function Home () {
                         <Product
                             key = {item.id}
                             item = {item}
-                            onAdd = {onAdd}
-                            onRemove = {onRemove}
                         />
                     ))
                 }
