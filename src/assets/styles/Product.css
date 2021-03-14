@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
 
 .ProductContainer {
-    height: 36vh;
+    height: 38vh;
     width: 42vw;
     margin-top: 1vh;
     border-radius: 15px;
@@ -27,7 +27,7 @@
 .ProductImage {
     width: 30vw;
     height: 30vw;
-    margin-top: 5vh;
+    margin-top: 6vh;
     margin-left: 5.5vw;
     border-radius: 50%;
     background-color: #ffffff;
