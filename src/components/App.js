@@ -1,13 +1,16 @@
 import React, { useState } from 'react';
 import { AppRouter } from '../routers/AppRouter';
 import { Context } from './context/Context';
-import {infoProduct, categories} from '../data/infoPettit.json';
+import {infoProduct, categories, cakesize} from '../data/infoPettit.json';
 
 function App() {
 
   // useState to save the selected category
     const [idcategory, setIdCategory] = useState(1);
     const [categoryName, setCategoryName] = useState("");
+    // use to save the selected size
+    const [idSize, setIdSize] = useState(5);
+    const [sizeName, setSizeName] = useState("");
     // creating a const where we will update the list of selected products (shopping car)
     const [carItems, setCarItems] = useState([]);
     // Creating a copy of produts in an useState so we can manipulate it
@@ -63,6 +66,7 @@ function App() {
     let dataContext = {
         infoProduct, 
         categories,
+        cakesize,
         idcategory,
         setIdCategory,
         setCategoryName,
@@ -70,7 +74,11 @@ function App() {
         onAdd, 
         onRemove,
         carItems, 
-        newProducts
+        newProducts,
+        idSize,
+        setIdSize,
+        sizeName,
+        setSizeName
     }
      
     return (

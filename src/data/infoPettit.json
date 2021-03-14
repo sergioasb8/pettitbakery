@@ -206,5 +206,19 @@
        "nameCat":"pie",
        "imgCat": "https://i.imgur.com/ek0fHIc.png"
       }
+   ],
+   "cakesize":[
+       {
+        "id":1,
+        "nameCat":"1/4 libra"
+       },
+       {
+        "id":2,
+        "nameCat":"1/2 libra"
+       },
+       {
+        "id":3,
+        "nameCat":"1 libra"
+       }
    ]
  }

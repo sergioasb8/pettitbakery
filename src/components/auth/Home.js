@@ -7,6 +7,7 @@ import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 import { Categories } from '../../containers/Categories';
 import { Context } from '../context/Context'
 import { Product } from '../pieces/Product';
+import { CakeCategories } from '../../containers/CakeCategories';
 
 function Home () {
 
@@ -33,6 +34,7 @@ function Home () {
             <div className='HomeContainer'>
 
                 <Categories /> 
+                <CakeCategories />
                 <ProductContainer>
                 {
                     productRender.map((item)=>(
