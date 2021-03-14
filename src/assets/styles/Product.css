@@ -57,6 +57,7 @@
     width: 4.8vh;
     height: 4.8vh;
     border-radius: 50%;
+    margin-left: -0.5vw;
     border: 1px solid #f7af9d;
     background-color: #ffffff;
 }
