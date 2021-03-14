@@ -41,10 +41,10 @@
 }
 
 .buttonsContainer {
-    width: 90%;
+    width: 94%;
     height: 5vh;
     background: #ff9aa2;
-    margin-left: 5%;
+    margin-left: 3%;
     margin-top: 1vh;
     display: flex;
     flex-direction: row;
@@ -62,10 +62,10 @@
 }
 
 .divText {
-    font-size: 2.5vh;
+    font-size: 2.3vh;
     margin-top: 1vh;
 }
 
 .divText.Price {
-    margin-left: 1vh;
+    margin-left: 0.5vh;
 }
