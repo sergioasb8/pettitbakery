@@ -10,7 +10,7 @@ import { Product } from '../pieces/Product';
 
 function Home () {
 
-    const {idcategory,categoryName, infoProduct, onAdd, onRemove} = useContext(Context)
+    const {idcategory,categoryName, infoProduct, onAdd, onRemove, carItems, newProducts} = useContext(Context)
 
     let productRender =[];
 
@@ -26,8 +26,8 @@ function Home () {
      }
     });
 
-    console.log(infoProduct);
-    console.log(productRender);
+    console.log(carItems);
+    console.log(newProducts);
     console.log(idcategory);
     return (
         <div className='Home'>
@@ -37,16 +37,12 @@ function Home () {
                 <Categories /> 
                 <ProductContainer>
                 {
-                    productRender.map(({id,nameProduct,price,Image,amount})=>(
+                    productRender.map((item)=>(
                         <Product
-                            key={id}
-                            nameProduct={nameProduct}
-                            price={price}
-                            Image={Image}
-                            amount={amount}
+                            key = {item.id}
+                            item = {item}
                             onAdd = {onAdd}
                             onRemove = {onRemove}
-                            id={id}
                         />
                     ))
                 }

@@ -68,7 +68,9 @@ function App() {
       setCategoryName,
       categoryName,
       onAdd,
-      onRemove
+      onRemove,
+      newProducts,
+      carItems
     }
      
   return (
