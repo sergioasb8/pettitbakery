@@ -10,23 +10,23 @@ import { Product } from '../pieces/Product';
 
 function Home () {
 
-    const {idcategory,categoryName, infoProduct} = useContext(Context)
+    const {idcategory,categoryName, infoProduct, onAdd, carItems, newProducts} = useContext(Context)
 
+    // array to save the products of each category to show
     let productRender =[];
 
-
-    // Validamos que la primera pantalla solo muestre la categoria recomendados
-
+    // adding elements to the array productRender
     infoProduct.forEach(element => {
-
-     if (idcategory === 1 && element.category === "brownie" )   {
-        productRender.push(element);
-     }  else    if(element.category === categoryName && element.category!== "brownie")  {
-        productRender.push(element);
-     }
+        if (idcategory === 1 && element.category === "brownie" )   {
+            productRender.push(element);
+        }  else    if(element.category === categoryName && element.category!== "brownie")  {
+            productRender.push(element);
+        }
     });
 
     console.log(idcategory);
+    console.log(carItems);
+    console.log(newProducts);
     return (
         <div className='Home'>
             <Header />
@@ -35,12 +35,11 @@ function Home () {
                 <Categories /> 
                 <ProductContainer>
                 {
-                    productRender.map(({id, nameProduct, imgPro, price})=>(
+                    productRender.map((item)=>(
                         <Product
-                            key = {id}
-                            nameProduct = {nameProduct}
-                            imgPro = {imgPro}
-                            price = {price}
+                            key = {item.id}
+                            item = {item}
+                            onAdd = {onAdd}
                         />
                     ))
                 }
