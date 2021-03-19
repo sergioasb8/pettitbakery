@@ -3,11 +3,11 @@
 .ImageContainer {
     z-index: 0;
     width: 100%;
-    height: 200px;
+    height: 20vw;
     top: 0px;
 }
 
-.VectorBg {
+.VectorBgLogin {
     width: 100%;
 }
 
@@ -20,6 +20,12 @@
     margin-top: 0px;
     z-index: 3;
     padding-bottom: 15vh;
+}
+
+@media screen and (min-width:700px){
+    .Rectangle {
+        margin-top: 10vw;
+    }
 }
 
 .HalfCircle {
@@ -65,7 +71,7 @@
         width: 40vw;
         height: 40vw;
         margin-left: 30vw;
-        margin-top: 13vw;
+        margin-top: 15vw;
     }
 }
 .UnicornCake {

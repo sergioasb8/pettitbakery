@@ -10,7 +10,7 @@ const LoginScreen = () => {
     return (
         <div className='HomeContainer'>
             <div className='ImageContainer'>
-                <img src={VectorBg} alt='Vector' className='VectorBg'/>
+                <img src={VectorBg} alt='Vector' className='VectorBgLogin'/>
             </div>
             <div className='Rectangle'>
                 <div className='HalfCircle'>
