@@ -8,6 +8,13 @@
     margin-bottom: 3vh;
 }
 
+@media screen and (min-width:700px){
+    .SendContainer {
+        width: 20vw;
+        margin-left: 40vw;
+        margin-top: 5vw;
+    }
+}
 .WhatsappContainer {
     display: flex;
     flex-direction: row;

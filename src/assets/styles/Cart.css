@@ -10,9 +10,21 @@
     z-index: 0;
 }
 
+@media screen and (min-width:700px){
+    .CartContainer {
+        margin-top: -25vw;
+    }
+}
+
 .OrderTitle {
     font-size: 5vh;
     font-family: 'Akaya Telivigala', cursive;
     text-align: center;
     margin-top: 12vh;
+}
+
+@media screen and (min-width:700px){
+    .OrderTitle {
+        margin-top: 10vw;
+    }
 }

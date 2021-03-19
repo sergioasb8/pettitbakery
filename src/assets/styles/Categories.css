@@ -8,11 +8,26 @@
     margin-top: 12vh;
     justify-content: space-around;
 }
+
+@media screen and (min-width:700px){
+    .listCategories {
+        height: 8vw;
+        margin-top: 6vw;
+    }
+}
+
 .categoryCircle {
     width: 9vh;
     height: 9vh;
     border-radius: 50%;
     background-color: #ffffff;
+}
+
+@media screen and (min-width:700px){
+    .categoryCircle {
+        height: 6vw;
+        width: 6vw;
+    }
 }
 
 .categoryImage {
@@ -22,9 +37,23 @@
     background-color: #ffffff;
 }
 
+@media screen and (min-width:700px){
+    .categoryImage {
+        height: 6vw;
+        width: 6vw;
+    }
+}
+
 .categoryImage.active {
     width: 8vh;
     height: 8vh;
     border-radius: 50%;
     background-color: #9b5f50;
+}
+
+@media screen and (min-width:700px){
+    .categoryImage.active {
+        height: 6vw;
+        width: 6vw;
+    }
 }

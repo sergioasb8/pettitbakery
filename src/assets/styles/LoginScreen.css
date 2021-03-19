@@ -35,6 +35,16 @@
     z-index: 1;
 }
 
+@media screen and (min-width:700px){
+    .HalfCircle {
+        position: absolute;
+        width: 20vw;
+        height: 20vw;
+        margin-left: 40vw;
+        margin-top: -7vw;
+    }
+}
+
 .logoPettit{
     height: 70%;
     margin-top: 10%;
@@ -50,6 +60,14 @@
     z-index: 2;
 }
 
+@media screen and (min-width:700px) {
+    .UnicornContainer {
+        width: 40vw;
+        height: 40vw;
+        margin-left: 30vw;
+        margin-top: 13vw;
+    }
+}
 .UnicornCake {
     width: 90%;
     margin-left: 5%;

@@ -9,6 +9,15 @@
     border: 2px solid #ffffff;
 }
 
+@media screen and (min-width:700px){
+    .ProductContainer {
+        height: 21vw;
+        width: 15vw;
+        margin-top: 2vw;
+        margin-left: 2vw;
+    }
+}
+
 .ProductNameContainer {
     width: 40vw;
     height: 5vh;
@@ -17,11 +26,24 @@
     text-align: center;
 }
 
+@media screen and (min-width:700px){
+    .ProductNameContainer {
+        height: 2vw;
+        width: 12vw;
+    }
+}
+
 .ProductName {
     margin-top: 2vw;
     font-family: 'Akaya Telivigala', cursive;
     font-size: 5vw;
     color: black;
+}
+
+@media screen and (min-width:700px){
+    .ProductName {
+        font-size: 1.5vw;
+    }
 }
 
 .ProductImage {
@@ -34,10 +56,25 @@
     border: 2px solid #ffffff;
 }
 
+@media screen and (min-width:700px){
+    .ProductImage {
+        width: 9vw;
+        height: 9vw;
+        margin-left: 2.5vw;
+    }
+}
+
 .CakeImage {
     width: 30vw;
     height: 30vw;
     border-radius: 50%;
+}
+
+@media screen and (min-width:700px){
+    .CakeImage {
+        width: 9vw;
+        height: 9vw;
+    }
 }
 
 .buttonsContainer {

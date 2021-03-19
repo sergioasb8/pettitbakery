@@ -7,6 +7,7 @@
 .vectorBg {
     position: absolute;
     width: 100%;
+    height: 40vw;
 }
 
 .logoContainer {
@@ -19,6 +20,16 @@
     margin-top: -26vw;
     margin-left: 30%;
     z-index: 1;
+}
+
+@media screen and (min-width:700px){
+    .logoContainer {
+        position: absolute;
+        width: 20vw;
+        height: 20vw;
+        margin-left: 40vw;
+        margin-top: -35vw;
+    }
 }
 
 .logoPettit {
