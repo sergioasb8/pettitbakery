@@ -31,7 +31,6 @@ function Home () {
             <div className='HomeContainer'>
 
                 <Categories /> 
-                {idcategory === 2 ? <CakeCategories /> : ""}
                 {idcategory > 4 ? <CakeCategories /> : ""}
                 <ProductContainer>
                 {
