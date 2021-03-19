@@ -3,12 +3,25 @@
 .ImageContainer {
     z-index: 0;
     width: 100%;
-    height: 20vw;
+    height: 140vw;
     top: 0px;
+}
+
+@media screen and (min-width:700px){
+    .ImageContainer {
+        height: 40vw;
+    }
 }
 
 .VectorBgLogin {
     width: 100%;
+    height: 100vw;
+}
+
+@media screen and (min-width:700px){
+    .VectorBgLogin {
+        height: 60vw;
+    }
 }
 
 .Rectangle {
@@ -17,14 +30,14 @@
     height: auto;
     background: #f7af9d;
     border: 1px solid #f7af9d;
-    margin-top: 0px;
+    margin-top: -5vw;
     z-index: 3;
     padding-bottom: 15vh;
 }
 
 @media screen and (min-width:700px){
     .Rectangle {
-        margin-top: 10vw;
+        margin-top: -20vw;
     }
 }
 
@@ -36,7 +49,7 @@
     border: 1px solid #f7af9d;
     border-radius: 50%;
     margin-left: 25%;
-    margin-top: -25vw;
+    margin-top: -50vw;
     text-align: center;
     z-index: 1;
 }
@@ -47,7 +60,7 @@
         width: 20vw;
         height: 20vw;
         margin-left: 40vw;
-        margin-top: -7vw;
+        margin-top: -10vw;
     }
 }
 
@@ -62,7 +75,7 @@
     height: 90vw;
     background-color: blanchedalmond;
     border-radius: 30%;
-    margin-top: 18vh;
+    margin-top: 4vh;
     z-index: 2;
 }
 
