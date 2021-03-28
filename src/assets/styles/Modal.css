@@ -1,0 +1,28 @@
+.modalContainer {
+    position: fixed;
+    height: 90vh;
+    width: 90vw;
+    top: 5vh;
+    left: 5vw;
+    background-color: white;
+    z-index: 3;
+    border-radius: 30px;
+}
+
+@media screen and (min-width:700px){
+    .modalContainer {
+    }
+}
+
+.closeButton {
+    position: absolute;
+    top: 2vh;
+    right: 4vw;
+    width: 7vw;
+    height: 7vw;
+    border: 2px solid #da5863;
+    outline: none;
+    border-radius: 10px;
+    color: #da5863;
+    background-color: #fff;
+}

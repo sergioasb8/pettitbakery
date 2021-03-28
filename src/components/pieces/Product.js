@@ -1,4 +1,5 @@
 import React from 'react';
+import { Modal } from './Modal';
 import '../../assets/styles/Product.css';
 
 export const Product = ({item, onAdd, onRemove, newProducts, showModal, openModal}) => {
@@ -29,6 +30,7 @@ export const Product = ({item, onAdd, onRemove, newProducts, showModal, openModa
                 <button className="buttonPrice Plus" onClick={() => onAdd(item)}>+</button>
             </div>
             <button className="openModal" onClick={() => openModal()}>Ver detalles</button>
+            <Modal showModal={showModal} closeModal={openModal}/>
         </div>
     )
 }

@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
 
 .ProductContainer {
+    z-index: 2;
     height: 41vh;
     width: 42vw;
     margin-top: 1vh;
