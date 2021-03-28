@@ -14,6 +14,16 @@ function App() {
     const [carItems, setCarItems] = useState([]);
     // Creating a copy of produts in an useState so we can manipulate it
     const [newProducts, setNewProducts] = useState(infoProduct);
+    // creating a state to know if a must show the modal or not
+    const [showModal, setShowModal] = useState(false);
+
+    /** Creating the function to open the Modal
+     * in this case we use the callback where we wil lchange the value 
+     * of our useState to the opposite value.
+     */
+    const openModal = () => {
+        setShowModal(prev => !prev);
+    }
 
     // creating a function to add products to our shopping car
     const onAdd = (product) => {
@@ -75,7 +85,10 @@ function App() {
         carItems, 
         newProducts,
         active, 
-        setActive
+        setActive,
+        openModal,
+        showModal,
+        setShowModal
     }
      
     return (

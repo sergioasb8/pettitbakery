@@ -11,7 +11,7 @@ import { CakeCategories } from '../../containers/CakeCategories';
 
 function Home () {
 
-    const {idcategory,categoryName, infoProduct, onAdd, carItems, newProducts, onRemove} = useContext(Context)
+    const {idcategory,categoryName, infoProduct, onAdd, carItems, newProducts, onRemove, openModal, showModal} = useContext(Context)
 
     // array to save the products of each category to show
     let productRender =[];
@@ -41,6 +41,8 @@ function Home () {
                             onAdd = {onAdd}
                             onRemove = {onRemove}
                             newProducts = {newProducts}
+                            showModal = {showModal}
+                            openModal = {openModal}
                         />
                     ))
                 }

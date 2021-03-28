@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
 
 .ProductContainer {
-    height: 38vh;
+    height: 41vh;
     width: 42vw;
     margin-top: 1vh;
     border-radius: 15px;
@@ -11,7 +11,7 @@
 
 @media screen and (min-width:700px){
     .ProductContainer {
-        height: 21vw;
+        height: 24vw;
         width: 15vw;
         margin-top: 2vw;
         margin-left: 2vw;
@@ -79,29 +79,58 @@
 
 .buttonsContainer {
     width: 94%;
-    height: 5vh;
-    background: #ff9aa2;
+    height: 4.9vh;
     margin-left: 3%;
     margin-top: 1vh;
     display: flex;
     flex-direction: row;
-    border: 1px solid #ffffff;
     border-radius: 30px;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .buttonPrice {
     width: 4.8vh;
     height: 4.8vh;
     border-radius: 50%;
-    margin-left: -0.5vw;
-    border: 1px solid #f7af9d;
+    border: 1px solid #ff9aa2;
     background-color: #ffffff;
+    outline: none;
+}
+
+.buttonPrice:hover {
+    cursor: pointer;
+}
+
+.openModal {
+    width: 94%;
+    height: 4.8vh;
+    margin-top: 0.5vh;
+    border-radius: 15px;
+    border: 1.5px solid #ff9aa2;
+    background-color: #ffffff;
+    outline: none;
+    margin-left: 3%;
+}
+
+.openModal {
+    cursor: pointer;
 }
 
 .divText {
+    width: 17vw;
     font-size: 2.3vh;
     margin-top: 1vh;
+    text-align: center;
+}
+
+
+@media screen and (min-width:700px){
+    .divText {
+        width: 8vw;
+        font-size: 2.3vh;
+        margin-top: 1vh;
+        text-align: center;
+    }
 }
 
 .divText.Price {
