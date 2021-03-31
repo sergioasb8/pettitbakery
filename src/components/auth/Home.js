@@ -7,11 +7,10 @@ import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 import { Categories } from '../../containers/Categories';
 import { Context } from '../context/Context'
 import { Product } from '../pieces/Product';
-import { CakeCategories } from '../../containers/CakeCategories';
 
 function Home () {
 
-    const {idcategory,categoryName, infoProduct, onAdd, carItems, newProducts, onRemove, openModal, showModal} = useContext(Context)
+    const {idcategory,categoryName, infoProduct, onAdd, carItems, newProducts, onRemove} = useContext(Context)
 
     // array to save the products of each category to show
     let productRender =[];
@@ -31,7 +30,6 @@ function Home () {
             <div className='HomeContainer'>
 
                 <Categories /> 
-                {idcategory > 4 ? <CakeCategories /> : ""}
                 <ProductContainer>
                 {
                     productRender.map((item)=>(
@@ -41,8 +39,6 @@ function Home () {
                             onAdd = {onAdd}
                             onRemove = {onRemove}
                             newProducts = {newProducts}
-                            showModal = {showModal}
-                            openModal = {openModal}
                         />
                     ))
                 }

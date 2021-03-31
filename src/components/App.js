@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { AppRouter } from '../routers/AppRouter';
 import { Context } from './context/Context';
-import {infoProduct, categories, cakesize} from '../data/infoPettit.json';
+import {infoProduct, categories} from '../data/infoPettit.json';
 
 function App() {
 
@@ -16,6 +16,10 @@ function App() {
     const [newProducts, setNewProducts] = useState(infoProduct);
     // creating a state to know if a must show the modal or not
     const [showModal, setShowModal] = useState(false);
+    // creating a state to get the value from the pie select
+    const [pieFlavor, setPieFlavor] = useState("sugiereme un sabor");
+    // useState to identufy the current product
+    const [currentProduct, setCurrentProduct] = useState();
 
     /** Creating the function to open the Modal
      * in this case we use the callback where we wil lchange the value 
@@ -51,6 +55,12 @@ function App() {
 
     }
 
+    const identifyProduct = (product) => {
+        const currentPro = newProducts.find(y => y.id === product.id);
+        openModal();
+        setCurrentProduct(currentPro);
+    }
+
     // creating a function to add products to our shopping car
     const onRemove = (product) => {
 
@@ -72,10 +82,15 @@ function App() {
         }
       
     }
+
+    /** Handle the value of Pie select */
+    const valueHandler = e => {
+        setPieFlavor(e.target.value);
+    }
+
     let dataContext = {
         infoProduct, 
         categories,
-        cakesize,
         idcategory,
         setIdCategory,
         setCategoryName,
@@ -88,7 +103,12 @@ function App() {
         setActive,
         openModal,
         showModal,
-        setShowModal
+        setShowModal,
+        valueHandler,
+        pieFlavor,
+        setPieFlavor,
+        identifyProduct,
+        currentProduct
     }
      
     return (

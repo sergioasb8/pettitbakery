@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+
 .modalContainer {
     position: fixed;
     height: 90vh;
@@ -7,6 +9,7 @@
     background-color: white;
     z-index: 3;
     border-radius: 30px;
+    border: 2px solid #da5863;
 }
 
 @media screen and (min-width:700px){
@@ -25,4 +28,537 @@
     border-radius: 10px;
     color: #da5863;
     background-color: #fff;
+    text-align: center;
+}
+
+.closeButton:hover {
+    cursor: pointer;
+    background-color: #ff9aa2;
+    color: #ffffff;
+}
+
+@media screen and (min-width:700px){
+    .closeButton {
+        width: 3vw;
+        height: 3vw;
+    }
+}
+
+.modalNamePie {
+    color: #da5863;
+    top: 2vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    width: 70vw;
+    height: 8vw;
+    font-size: 6vw;
+    text-align: center;
+    font-family: 'Akaya Telivigala', cursive;
+}
+
+@media screen and (min-width:700px){
+    .modalNamePie {
+        font-size: 3vw;
+        border-bottom: 1px solid #da5863;
+    }
+}
+
+.modalImage {
+    width: 50vw;
+    height: 50vw;
+    margin-left: 20vw;
+    border-radius: 50%;
+    background-color: #ffffff;
+}
+
+@media screen and (min-width:700px){
+    .modalImage {
+        width: 25vw;
+        height: 25vw;
+        margin-left: 5vw;
+    }
+}
+
+.PieImage {
+    width: 50vw;
+    height: 50vw;
+    border-radius: 50%;
+    border: 2px solid #f7af9d;
+}
+
+@media screen and (min-width:700px){
+    .PieImage {
+        width: 25vw;
+        height: 25vw;
+        margin-left: 5vw;
+    }
+}
+
+.selectPieContainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10vw;
+    color: #da5863;
+    text-align: center;
+}
+
+@media screen and (min-width:700px){
+    .selectPieContainer {
+        width: 25vw;
+        height: 25vw;
+        margin-left: 50vw;
+        margin-top: -30vw;
+    }
+}
+
+.SelectLabelPie {
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 6vw;
+}
+
+@media screen and (min-width:700px){
+    .SelectLabelPie {
+        font-size: 3vw;
+    }
+}
+
+.flavor {
+    width: 50vw;
+    height: 9vw;
+    border: 1px solid #da5863;
+    color: #000000;
+    margin-top: 4vw;
+    margin-left: 20vw;
+    border-radius: 15px;
+    font-size: 4vw;
+    outline: none;
+    padding-left: 15vw;
+}
+
+@media screen and (min-width:700px){
+    .flavor {
+        margin-left: -5vw;
+        width: 35vw;
+        padding-left: 13vw;
+        font-size: 2vw;
+        margin-top: 1vw;
+    }
+}
+
+.flavor:hover {
+    cursor: pointer;
+    background-color: #ff9aa2;
+    color: #ffffff;
+}
+
+.PiePriceText {
+    margin-top: 3vw;
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 6vw;
+}
+
+@media screen and (min-width:700px){
+    .PiePriceText {
+        margin-top: 1vw;
+        font-size: 3vw;
+    }
+}
+
+.PiePriceLabel {
+    margin-top: 3vw;
+    width: 50vw;
+    height: 9vw;
+    border: 1px solid #da5863;
+    margin-left: 20vw;
+    border-radius: 15px;
+    color: #000000;
+}
+
+@media screen and (min-width:700px){
+    .PiePriceLabel {
+        margin-left: -5vw;
+        width: 35vw;
+        margin-top: 1vw;
+        font-size: 2.5vw;
+        height: 8vw;
+        padding-top: 1vw;
+    }
+}
+
+.PieButton {
+    width: 50vw;
+    height: 9vw;
+    margin-left: 20vw;
+    margin-top: 20vw;
+    border-radius: 15px;
+    border: 1px solid #da5863;;
+    background-color: #f7af9d;
+    color: #000;
+    outline: none;
+}
+
+.PieButton:hover {
+    border: 1px solid #da5863;
+    background-color: #da5863;
+    color: #fff;
+    cursor: pointer;
+}
+
+@media screen and (min-width:700px){
+    .PieButton {
+        width: 35vw;
+        margin-top: 1vw;
+        margin-left: -5vw;
+        height: 7vw;
+        font-size: 2vw;
+    }
+}
+
+/** ----------------------------------------------------*/
+/**    comenzando el diseño para el modal del Brownie   */
+/** ----------------------------------------------------*/
+
+.modalContainerBrownie {
+    position: fixed;
+    height: 95%;
+    width: 90vw;
+    top: 2.5vh;
+    left: 5vw;
+    background-color: white;
+    z-index: 3;
+    border-radius: 30px;
+    border: 2px solid #da5863;
+}
+
+.modalNameBrownie {
+    color: #da5863;
+    top: 2vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    width: 70vw;
+    height: 8vw;
+    font-size: 6vw;
+    text-align: center;
+    font-family: 'Akaya Telivigala', cursive;
+}
+
+
+@media screen and (min-width:700px){
+    .modalNameBrownie {
+        font-size: 3vw;
+        border-bottom: 1px solid #da5863;
+    }
+}
+
+.BrownieImage {
+    width: 50vw;
+    height: 50vw;
+    border-radius: 50%;
+    border: 2px solid #f7af9d;
+}
+
+@media screen and (min-width:700px){
+    .BrownieImage {
+        width: 25vw;
+        height: 25vw;
+        margin-left: 5vw;
+    }
+}
+
+.selectBrownieContainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vw;
+    color: #da5863;
+    text-align: center;
+}
+
+@media screen and (min-width:700px){
+    .selectBrownieContainer {
+        width: 40vw;
+        height: 25vw;
+        margin-left: 45vw;
+        margin-top: -24vw;
+    }
+}
+
+.SelectLabelBrownie {
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 6vw;
+    margin-top: -3vw;
+}
+
+@media screen and (min-width:700px){
+    .SelectLabelBrownie {
+        font-size: 2.5vw;
+        margin-left: -10vw;
+    }
+}
+
+.flavorBrownie {
+    width: 50vw;
+    height: 7vw;
+    border: 1px solid #da5863;
+    color: #000000;
+    margin-top: 1vw;
+    margin-left: 20vw;
+    border-radius: 15px;
+    font-size: 4vw;
+    outline: none;
+}
+
+@media screen and (min-width:700px){
+    .flavorBrownie {
+        margin-left: -2vw;
+        width: 35vw;
+        font-size: 1.5vw;
+        margin-top: 0.5vw;
+        padding-left: 2vw;
+    }
+}
+
+.flavorBrownie:hover {
+    cursor: pointer;
+    background-color: #ff9aa2;
+    color: #ffffff;
+}
+
+.BrowniePriceText {
+    margin-top: 1vw;
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 6vw;
+}
+
+@media screen and (min-width:700px){
+    .BrowniePriceText {
+        font-size: 3vw;
+        margin-left: -8vw;
+    }
+}
+
+.BrowniePriceLabel {
+    margin-top: 3vw;
+    width: 50vw;
+    height: 7vw;
+    border: 1px solid #da5863;
+    margin-left: 20vw;
+    border-radius: 15px;
+    color: #000000;
+    padding-top: 1vw;
+}
+
+@media screen and (min-width:700px){
+    .BrowniePriceLabel {
+        margin-left: -2vw;
+        width: 35vw;
+        margin-top: 1vw;
+        font-size: 2.5vw;
+        height: 8vw;
+        padding-top: 1vw;
+    }
+}
+
+.BrownieButton {
+    width: 50vw;
+    height: 9vw;
+    margin-left: 20vw;
+    margin-top: 2vw;
+    border-radius: 15px;
+    border: 1px solid #f7af9d;
+    background-color: #f7af9d;
+    color: #000;
+    outline: none;
+}
+
+.BrownieButton:hover {
+    border: 1px solid #da5863;
+    background-color: #da5863;
+    color: #fff;
+    cursor: pointer;
+}
+
+@media screen and (min-width:700px){
+    .BrownieButton {
+        width: 35vw;
+        margin-top: 1vw;
+        margin-left: -2vw;
+        height: 7vw;
+        font-size: 2vw;
+    }
+}
+
+/** ----------------------------------------------------*/
+/**    comenzando el diseño para el modal de la torta   */
+/** ----------------------------------------------------*/
+
+.modalContainerCake {
+    position: fixed;
+    height: 95%;
+    width: 90vw;
+    top: 2.5vh;
+    left: 5vw;
+    background-color: white;
+    z-index: 3;
+    border-radius: 30px;
+    border: 2px solid #da5863;
+}
+
+.modalNameCake {
+    color: #da5863;
+    top: 2vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    width: 70vw;
+    height: 8vw;
+    font-size: 6vw;
+    text-align: center;
+    font-family: 'Akaya Telivigala', cursive;
+}
+
+
+@media screen and (min-width:700px){
+    .modalNameCake {
+        font-size: 3vw;
+        border-bottom: 1px solid #da5863;
+    }
+}
+
+/* cake image is for our productCart */
+.CakeImageModal {
+    width: 50vw;
+    height: 50vw;
+    border-radius: 50%;
+    border: 2px solid #f7af9d;
+}
+
+@media screen and (min-width:700px){
+    .CakeImageModal {
+        width: 25vw;
+        height: 25vw;
+        margin-left: 5vw;
+    }
+}
+
+.selectCakeContainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vw;
+    color: #da5863;
+    text-align: center;
+}
+
+@media screen and (min-width:700px){
+    .selectCakeContainer {
+        width: 40vw;
+        height: 60vh;
+        margin-left: 45vw;
+        margin-top: -58vh;
+    }
+}
+
+.SelectLabelCake {
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 6vw;
+    margin-top: 1vh;
+}
+
+@media screen and (min-width:700px){
+    .SelectLabelCake {
+        font-size: 2.2vw;
+        margin-left: -10vw;
+        margin-top: 0vw;
+    }
+}
+
+.selecCake {
+    width: 50vw;
+    height: 7vw;
+    border: 1px solid #da5863;
+    color: #000000;
+    margin-top: 1vw;
+    margin-left: 20vw;
+    border-radius: 15px;
+    font-size: 4vw;
+    outline: none;
+}
+
+@media screen and (min-width:700px){
+    .selecCake {
+        margin-left: -2vw;
+        width: 35vw;
+        font-size: 1.5vw;
+        margin-top: 0.5vw;
+        padding-left: 2vw;
+        height: 8vh;
+    }
+}
+
+.selecCake:hover {
+    cursor: pointer;
+    background-color: #ff9aa2;
+    color: #ffffff;
+}
+
+.CakePriceText {
+    margin-top: 1vw;
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 6vw;
+}
+
+@media screen and (min-width:700px){
+    .CakePriceText {
+        font-size: 2.2vw;
+        margin-left: -8vw;
+    }
+}
+
+.CakePriceLabel {
+    margin-top: 3vw;
+    width: 50vw;
+    height: 7vw;
+    border: 1px solid #da5863;
+    margin-left: 20vw;
+    border-radius: 15px;
+    color: #000000;
+    padding-top: 1vw;
+}
+
+@media screen and (min-width:700px){
+    .CakePriceLabel {
+        margin-left: -2vw;
+        width: 35vw;
+        margin-top: 1vw;
+        font-size: 2.5vw;
+        height: 7vh;
+        padding-top: 1vw;
+    }
+}
+
+.CakeButton {
+    width: 50vw;
+    height: 9vw;
+    margin-left: 20vw;
+    margin-top: 2vw;
+    border-radius: 15px;
+    border: 1px solid #f7af9d;
+    background-color: #f7af9d;
+    color: #000;
+    outline: none;
+}
+
+.CakeButton:hover {
+    border: 1px solid #da5863;
+    background-color: #da5863;
+    color: #fff;
+    cursor: pointer;
+}
+
+@media screen and (min-width:700px){
+    .CakeButton {
+        width: 35vw;
+        margin-top: 1vw;
+        margin-left: -2vw;
+        height: 8vh;
+        font-size: 2vw;
+    }
 }

@@ -23,6 +23,10 @@
     background-color: #ffffff;
 }
 
+.categoryCircle:hover {
+    cursor: pointer;
+}
+
 @media screen and (min-width:700px){
     .categoryCircle {
         height: 6vw;
@@ -35,6 +39,11 @@
     height: 8vh;
     border-radius: 50%;
     background-color: #ffffff;
+}
+
+.categoryImage:hover {
+    cursor: pointer;
+    background-color: #ff9aa2;
 }
 
 @media screen and (min-width:700px){

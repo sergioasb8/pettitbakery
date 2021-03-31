@@ -2,435 +2,183 @@
     "infoProduct":[
     {
         "id": 1,
-        "category": "1/4 libra",
-        "nameProduct": "Personaliza tu torta 1/4 libra",
+        "category": "cake",
+        "nameProduct": "Personaliza tu torta",
         "price": 0,
+        "priceMedium": 0,
+        "priceBig": 0,
         "amount": 0,
-        "imgPro": "https://i.imgur.com/1J0zca2.png"
+        "imgPro": "https://i.imgur.com/V2IaEsb.png"
     },
     {
         "id": 2,
-        "category": "1/4 libra",
-        "nameProduct": "Torta de Chocolate 1/4 libra",
+        "category": "cake",
+        "nameProduct": "Torta de Chocolate",
         "price": 45000,
+        "priceMedium": 65000,
+        "priceBig": 90000,
         "amount": 0,
-        "imgPro": "https://i.imgur.com/JDXxVgm.png"
+        "imgPro": "https://i.imgur.com/rOp6CSN.png"
     },
     {
         "id": 3,
-        "nameProduct": "Torta de flores 1/4 libra",
+        "nameProduct": "Torta de flores",
         "price": 50000,
+        "priceMedium": 70000,
+        "priceBig": 95000,
         "amount": 0,
-        "category": "1/4 libra",
-        "imgPro": "https://i.imgur.com/Ha0fLZL.jpg"
+        "category": "cake",
+        "imgPro": "https://i.imgur.com/p13BuRv.jpg"
     },
     {
         "id": 4,
-        "nameProduct": "Torta unicornio en fondant 1/4 libra",
+        "nameProduct": "Torta unicornio en fondant",
         "price": 60000,
+        "priceMedium": 80000,
+        "priceBig": 110000,
         "amount": 0,
-        "category": "1/4 libra",
-        "imgPro": "https://i.imgur.com/FCDqpzE.jpg"
+        "category": "cake",
+        "imgPro": "https://i.imgur.com/y2Muyyv.jpg"
     },
     {
         "id": 5,
-        "nameProduct": "Torta jarra de cerveza 1/4 libra",
+        "nameProduct": "Torta jarra de cerveza",
         "price": 45000,
+        "priceMedium": 65000,
+        "priceBig": 90000,
         "amount": 0,
-        "category": "1/4 libra",
-        "imgPro": "https://i.imgur.com/VbwFVDf.png"
+        "category": "cake",
+        "imgPro": "https://i.imgur.com/uI8pJrg.png"
     },
     {
         "id": 6,
-        "nameProduct": "Torta ingeniero / arquitecto 1/4 libra",
+        "nameProduct": "Torta ingeniero / arquitecto",
         "price": 50000,
+        "priceMedium": 65000,
+        "priceBig": 95000,
         "amount": 0,
-        "category": "1/4 libra",
-        "imgPro": "https://i.imgur.com/96dYbmq.jpg"
+        "category": "cake",
+        "imgPro": "https://i.imgur.com/RagD7W7.png"
     },
     {
         "id": 7,
-        "nameProduct": "Torta básica 1/4 libra",
+        "nameProduct": "Torta básica",
         "price": 35000,
+        "priceMedium": 55000,
+        "priceBig": 80000,
         "amount": 0,
-        "category": "1/4 libra",
-        "imgPro": "https://i.imgur.com/5lLvaZ5.jpg"
+        "category": "cake",
+        "imgPro": "https://i.imgur.com/zeMlSbm.jpg"
     },
     {
         "id": 8,
-        "nameProduct": "Torta super hero 1/4 libra",
+        "nameProduct": "Torta super hero",
         "price": 45000,
+        "priceMedium": 65000,
+        "priceBig": 90000,
         "amount": 0,
-        "category": "1/4 libra",
-        "imgPro": "https://i.imgur.com/hWTxvuF.jpg"
+        "category": "cake",
+        "imgPro": "https://i.imgur.com/0Tpt0k4.jpg"
     }, 
     {
         "id": 9,
-        "nameProduct": "Torta letra o número 1/4 libra",
+        "nameProduct": "Torta letra o número",
         "price": 40000,
+        "priceMedium": 60000,
+        "priceBig": 80000,
         "amount": 0,
-        "category": "1/4 libra",
-        "imgPro": "https://i.imgur.com/wVUv4MX.png"
+        "category": "cake",
+        "imgPro": "https://i.imgur.com/6nfZs6V.png"
     }, 
     {
         "id": 10,
-        "nameProduct": "Torta bicicleta 1/4 libra",
+        "nameProduct": "Torta bicicleta",
         "price": 45000,
+        "priceMedium": 65000,
+        "priceBig": 85000,
         "amount": 0,
-        "category": "1/4 libra",
-        "imgPro": "https://i.imgur.com/p37AIlQ.png"
+        "category": "cake",
+        "imgPro": "https://i.imgur.com/wUBdQXc.png"
     },   
     {
         "id": 11,
-        "nameProduct": "Torta animales 1/4 libra",
+        "nameProduct": "Torta animales",
         "price": 50000,
+        "priceMedium": 70000,
+        "priceBig": 90000,
         "amount": 0,
-        "category": "1/4 libra",
-        "imgPro": "https://i.imgur.com/65jeKIk.jpg"
+        "category": "cake",
+        "imgPro": "https://i.imgur.com/ZVKATTA.jpg"
     },   
     {
         "id": 12,
-        "nameProduct": "Torta Coca Cola 1/4 libra",
+        "nameProduct": "Torta Coca Cola",
         "price": 45000,
+        "priceMedium": 65000,
+        "priceBig": 85000,
         "amount": 0,
-        "category": "1/4 libra",
-        "imgPro": "https://i.imgur.com/7JVgkVt.png"
+        "category": "cake",
+        "imgPro": "https://i.imgur.com/e0lPVQ8.png"
     },
     {
         "id": 13,
-        "nameProduct": "Torta Harry Potter 1/4 libra",
+        "nameProduct": "Torta Harry Potter",
         "price": 45000,
+        "priceMedium": 65000,
+        "priceBig": 90000,
         "amount": 0,
-        "category": "1/4 libra",
-        "imgPro": "https://i.imgur.com/9uxCyeI.png"
+        "category": "cake",
+        "imgPro": "https://i.imgur.com/0l9540Y.png"
     },
     {
         "id": 14,
-        "nameProduct": "Torta Control de Play 1/4 libra",
+        "nameProduct": "Torta Control de Play",
         "price": 60000,
+        "priceMedium": 80000,
+        "priceBig": 110000,
         "amount": 0,
-        "category": "1/4 libra",
-        "imgPro": "https://i.imgur.com/SUsMa5h.png"
+        "category": "cake",
+        "imgPro": "https://i.imgur.com/od8520H.png"
     },
     {
         "id": 15,
-        "nameProduct": "Torta de grado 1/4 libra",
+        "nameProduct": "Torta de grado",
         "price": 45000,
+        "priceMedium": 65000,
+        "priceBig": 85000,
         "amount": 0,
-        "category": "1/4 libra",
-        "imgPro": "https://i.imgur.com/Fbo8SHJ.jpg"
+        "category": "cake",
+        "imgPro": "https://i.imgur.com/Ve3jqDG.jpg"
     },
     {
         "id": 16,
-        "nameProduct": "Torta de unicornio 1/4 libra",
+        "nameProduct": "Torta de unicornio",
         "price": 50000,
+        "priceMedium": 70000,
+        "priceBig": 95000,
         "amount": 0,
-        "category": "1/4 libra",
-        "imgPro": "https://i.imgur.com/rdfdiVc.jpg"
+        "category": "cake",
+        "imgPro": "https://i.imgur.com/axZ1ado.jpg"
     },
     {
         "id": 17,
-        "nameProduct": "Torta de serpiente 1/4 libra",
+        "nameProduct": "Torta de serpiente",
         "price": 60000,
+        "priceMedium": 80000,
+        "priceBig": 110000,
         "amount": 0,
-        "category": "1/4 libra",
-        "imgPro": "https://i.imgur.com/rFnFCrJ.png"
+        "category": "cake",
+        "imgPro": "https://i.imgur.com/STcrczg.png"
     },
     {
         "id": 18,
-        "nameProduct": "Torta de oso 1/4 libra",
+        "nameProduct": "Torta de oso",
         "price": 50000,
+        "priceMedium": 70000,
+        "priceBig": 90000,
         "amount": 0,
-        "category": "1/4 libra",
-        "imgPro": "https://i.imgur.com/ym2XhO9.png"
-    },
-    {
-        "id": 19,
-        "nameProduct": "Personaliza tu torta 1/2 libra",
-        "price": 0,
-        "amount": 0,
-        "category": "1/2 libra",
-        "imgPro": "https://i.imgur.com/1J0zca2.png"
-    },
-    {
-        "id": 20,
-        "nameProduct": "Torta de Chocolate 1/2 libra",
-        "price": 65000,
-        "amount": 0,
-        "category": "1/2 libra",
-        "imgPro": "https://i.imgur.com/JDXxVgm.png"
-    },
-    {
-        "id": 21,
-        "nameProduct": "Torta de flores 1/2 libra",
-        "price": 70000,
-        "amount": 0,
-        "category": "1/2 libra",
-        "imgPro": "https://i.imgur.com/Ha0fLZL.jpg"
-    },
-    {
-        "id": 22,
-        "nameProduct": "Torta unicornio en fondant 1/2 libra",
-        "price": 80000,
-        "amount": 0,
-        "category": "1/2 libra",
-        "imgPro": "https://i.imgur.com/FCDqpzE.jpg"
-    },
-    {
-        "id": 23,
-        "nameProduct": "Torta jarra de cerveza 1/2 libra",
-        "price": 65000,
-        "amount": 0,
-        "category": "1/2 libra",
-        "imgPro": "https://i.imgur.com/VbwFVDf.png"
-    },
-    {
-        "id": 24,
-        "nameProduct": "Torta ingeniero / arquitecto 1/2 libra",
-        "price": 65000,
-        "amount": 0,
-        "category": "1/2 libra",
-        "imgPro": "https://i.imgur.com/96dYbmq.jpg" 
-    },
-    {
-        "id": 25,
-        "nameProduct": "Torta básica 1/2 libra",
-        "price": 55000,
-        "amount": 0,
-        "category": "1/2 libra",
-        "imgPro": "https://i.imgur.com/5lLvaZ5.jpg"
-    },
-    {
-        "id": 26,
-        "nameProduct": "Torta super hero 1/2 libra",
-        "price": 65000,
-        "amount": 0,
-        "category": "1/2 libra",
-        "imgPro": "https://i.imgur.com/hWTxvuF.jpg"
-    }, 
-    {
-        "id": 27,
-        "nameProduct": "Torta letra o número 1/2 libra",
-        "price": 60000,
-        "amount": 0,
-        "category": "1/2 libra",
-        "imgPro": "https://i.imgur.com/wVUv4MX.png"
-    }, 
-    {
-        "id": 28,
-        "nameProduct": "Torta bicicleta 1/2 libra",
-        "price": 65000,
-        "amount": 0,
-        "category": "1/2 libra",
-        "imgPro": "https://i.imgur.com/p37AIlQ.png"
-    },   
-    {
-        "id": 29,
-        "nameProduct": "Torta animales 1/2 libra",
-        "price": 70000,
-        "amount": 0,
-        "category": "1/2 libra",
-        "imgPro": "https://i.imgur.com/65jeKIk.jpg"
-    },   
-    {
-        "id": 30,
-        "nameProduct": "Torta Coca Cola 1/2 libra",
-        "price": 65000,
-        "amount": 0,
-        "category": "1/2 libra",
-        "imgPro": "https://i.imgur.com/7JVgkVt.png" 
-    },
-    {
-        "id": 31,
-        "nameProduct": "Torta Harry Potter 1/2 libra",
-        "price": 65000,
-        "amount": 0,
-        "category": "1/2 libra",
-        "imgPro": "https://i.imgur.com/9uxCyeI.png"
-    },
-    {
-        "id": 32,
-        "nameProduct": "Torta Control de Play 1/2 libra",
-        "price": 80000,
-        "amount": 0,
-        "category": "1/2 libra",
-        "imgPro": "https://i.imgur.com/SUsMa5h.png"
-    },
-    {
-        "id": 33,
-        "nameProduct": "Torta de grado 1/2 libra",
-        "price": 65000,
-        "amount": 0,
-        "category": "1/2 libra",
-        "imgPro": "https://i.imgur.com/Fbo8SHJ.jpg"
-    },
-    {
-        "id": 34,
-        "nameProduct": "Torta de unicornio 1/2 libra",
-        "price": 70000,
-        "amount": 0,
-        "category": "1/2 libra",
-        "imgPro": "https://i.imgur.com/rdfdiVc.jpg"
-    },
-    {
-        "id": 35,
-        "nameProduct": "Torta de serpiente 1/2 libra",
-        "price": 80000,
-        "amount": 0,
-        "category": "1/2 libra",
-        "imgPro": "https://i.imgur.com/rFnFCrJ.png"
-    },
-    {
-        "id": 36,
-        "nameProduct": "Torta de oso 1/2 libra",
-        "price": 70000,
-        "amount": 0,
-        "category": "1/2 libra",
-        "imgPro": "https://i.imgur.com/ym2XhO9.png"
-    },
-    {
-        "id": 37,
-        "nameProduct": "Personaliza tu torta 1 libra",
-        "price": 0,
-        "amount": 0,
-        "category": "1 libra",
-        "imgPro": "https://i.imgur.com/1J0zca2.png"
-    },
-    {
-        "id": 38,
-        "nameProduct": "Torta de Chocolate 1 libra",
-        "price": 90000,
-        "amount": 0,
-        "category": "1 libra",
-        "imgPro": "https://i.imgur.com/JDXxVgm.png"
-    },
-    {
-        "id": 39,
-        "nameProduct": "Torta de flores 1 libra",
-        "price": 95000,
-        "amount": 0,
-        "category": "1 libra",
-        "imgPro": "https://i.imgur.com/Ha0fLZL.jpg"
-    },
-    {
-        "id": 40,
-        "nameProduct": "Torta unicornio en fondant 1 libra",
-        "price": 110000,
-        "amount": 0,
-        "category": "1 libra",
-        "imgPro": "https://i.imgur.com/FCDqpzE.jpg"
-    },
-    {
-        "id": 41,
-        "nameProduct": "Torta jarra de cerveza 1 libra",
-        "price": 90000,
-        "amount": 0,
-        "category": "1 libra",
-        "imgPro": "https://i.imgur.com/VbwFVDf.png"
-    },
-    {
-        "id": 42,
-        "nameProduct": "Torta ingeniero / arquitecto 1 libra",
-        "price": 95000,
-        "amount": 0,
-        "category": "1 libra",
-        "imgPro": "https://i.imgur.com/96dYbmq.jpg"
-    },
-    {
-        "id": 43,
-        "nameProduct": "Torta básica 1 libra",
-        "price": 80000,
-        "amount": 0,
-        "category": "1 libra",
-        "imgPro": "https://i.imgur.com/5lLvaZ5.jpg"
-    },
-    {
-        "id": 44,
-        "nameProduct": "Torta super hero 1 libra",
-        "price": 90000,
-        "amount": 0,
-        "category": "1 libra",
-        "imgPro": "https://i.imgur.com/hWTxvuF.jpg"
-    }, 
-    {
-        "id": 45,
-        "nameProduct": "Torta letra o número 1 libra",
-        "price": 80000,
-        "amount": 0,
-        "category": "1 libra",
-        "imgPro": "https://i.imgur.com/wVUv4MX.png"
-    }, 
-    {
-        "id": 46,
-        "nameProduct": "Torta bicicleta 1 libra",
-        "price": 85000,
-        "amount": 0,
-        "category": "1 libra",
-        "imgPro": "https://i.imgur.com/p37AIlQ.png"
-    },   
-    {
-        "id": 47,
-        "nameProduct": "Torta animales 1 libra",
-        "price": 90000,
-        "amount": 0,
-        "category": "1 libra",
-        "imgPro": "https://i.imgur.com/65jeKIk.jpg"
-    },   
-    {
-        "id": 48,
-        "nameProduct": "Torta Coca Cola 1 libra",
-        "price": 85000,
-        "amount": 0,
-        "category": "1 libra",
-        "imgPro": "https://i.imgur.com/7JVgkVt.png"
-    },
-    {
-        "id": 49,
-        "nameProduct": "Torta Harry Potter 1 libra",
-        "price": 90000,
-        "amount": 0,
-        "category": "1 libra",
-        "imgPro": "https://i.imgur.com/9uxCyeI.png"
-    },
-    {
-        "id": 50,
-        "nameProduct": "Torta Control de Play 1 libra",
-        "price": 110000,
-        "amount": 0,
-        "category": "1 libra",
-        "imgPro": "https://i.imgur.com/SUsMa5h.png"
-    },
-    {
-        "id": 51,
-        "nameProduct": "Torta de grado 1 libra",
-        "price": 85000,
-        "amount": 0,
-        "category": "1 libra",
-        "imgPro": "https://i.imgur.com/Fbo8SHJ.jpg"
-    },
-    {
-        "id": 52,
-        "nameProduct": "Torta de unicornio 1 libra",
-        "price": 95000,
-        "amount": 0,
-        "category": "1 libra",
-        "imgPro": "https://i.imgur.com/rdfdiVc.jpg"
-    },
-    {
-        "id": 53,
-        "nameProduct": "Torta de serpiente 1 libra",
-        "price": 110000,
-        "amount": 0,
-        "category": "1 libra",
-        "imgPro": "https://i.imgur.com/rFnFCrJ.png"
-    },
-    {
-        "id": 54,
-        "nameProduct": "Torta de oso 1 libra",
-        "price": 90000,
-        "amount": 0,
-        "category": "1 libra",
-        "imgPro": "https://i.imgur.com/ym2XhO9.png"
+        "category": "cake",
+        "imgPro": "https://i.imgur.com/R8uizpf.png"
     },
     {
         "id": 55,
@@ -438,7 +186,7 @@
         "price": 23000,
         "amount": 0,
         "category": "brownie",
-        "imgPro": "https://i.imgur.com/hyXDe7D.png"
+        "imgPro": "https://i.imgur.com/oD76nGE.png"
     },
     {
         "id": 56,
@@ -446,7 +194,7 @@
         "price": 23000,
         "amount": 0,
         "category": "brownie",
-        "imgPro": "https://i.imgur.com/ztzX77T.png"
+        "imgPro": "https://i.imgur.com/m2yX6Oi.png"
     },
     {
         "id": 57,
@@ -454,7 +202,7 @@
         "price": 30000,
         "amount": 0,
         "category": "cupcake",
-        "imgPro": "https://i.imgur.com/D893meC.png"
+        "imgPro": "https://i.imgur.com/yZs4fZx.png"
     },
     {
         "id": 58,
@@ -462,7 +210,7 @@
         "price": 25000,
         "amount": 0,
         "category": "cupcake",
-        "imgPro": "https://i.imgur.com/01DXuGF.jpg"
+        "imgPro": "https://i.imgur.com/moFMTKF.jpg"
     },
     {
         "id": 59,
@@ -470,7 +218,7 @@
         "price": 30000,
         "amount": 0,
         "category": "pie",
-        "imgPro": "https://i.imgur.com/H2ovAPV.jpg"
+        "imgPro": "https://i.imgur.com/JXnj5vP.jpg"
     }
    ],
    "categories":[
@@ -480,8 +228,8 @@
         "imgCat": "https://i.imgur.com/RSV3IOA.png"
       },
       {
-       "id":5,
-       "nameCat":"1/4 libra",
+       "id":2,
+       "nameCat":"cake",
        "imgCat" : "https://i.imgur.com/V2IaEsb.png"
       },
       {
@@ -494,19 +242,5 @@
        "nameCat":"pie",
        "imgCat": "https://i.imgur.com/ek0fHIc.png"
       }
-   ],
-   "cakesize":[
-       {
-        "id":5,
-        "nameCat":"1/4 libra"
-       },
-       {
-        "id":6,
-        "nameCat":"1/2 libra"
-       },
-       {
-        "id":7,
-        "nameCat":"1 libra"
-       }
    ]
  }
