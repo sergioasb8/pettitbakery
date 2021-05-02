@@ -25,7 +25,7 @@ export const ModalBrownie = ({twoFunctions}) => {
                         <div className='modalImage' >
                             <img src={currentProduct.imgPro} alt={currentProduct.nameProduct} className="BrownieImage" />
                         </div>
-                        <div className="selectBrownieContainer">
+                        <form className="selectBrownieContainer" onSubmit="">
                             <label className="SelectLabelBrownie">Selecciona el topping para cada brownie</label>
                             <select className="flavorBrownie" onChange={valueHandler}>
                                 <option value="Arequipe">Arequipe</option>
@@ -77,8 +77,8 @@ export const ModalBrownie = ({twoFunctions}) => {
                             </select>
                             <label className="BrowniePriceText">Precio</label>
                             <label className="BrowniePriceLabel">{formatter.format(currentProduct.price)}</label>
-                            <button className="BrownieButton" onClick={twoFunctions}>Agregar</button>
-                        </div>
+                            <button className="BrownieButton" type="submit" onClick={twoFunctions}>Agregar</button>
+                        </form>
                     </div> 
                     : 
                 null 

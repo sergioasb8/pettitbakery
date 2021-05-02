@@ -14,6 +14,17 @@
 
 @media screen and (min-width:700px){
     .modalContainer {
+        position: fixed;
+        height: 80vh;
+        width: 90vw;
+        top: 8vh;
+        left: 5vw;
+        background-color: white;
+        z-index: 3;
+        border-radius: 30px;
+        border: 2px solid #da5863;
+        overflow-y: scroll;
+        padding-bottom: 15px;
     }
 }
 
@@ -220,14 +231,16 @@
 
 .modalContainerBrownie {
     position: fixed;
-    height: 95%;
+    height: 80vh;
     width: 90vw;
-    top: 2.5vh;
+    top: 8vh;
     left: 5vw;
     background-color: white;
     z-index: 3;
     border-radius: 30px;
     border: 2px solid #da5863;
+    overflow-y: scroll;
+    padding-bottom: 15px;
 }
 
 .modalNameBrownie {
@@ -393,14 +406,16 @@
 
 .modalContainerCake {
     position: fixed;
-    height: 95%;
+    height: 80vh;
     width: 90vw;
-    top: 2.5vh;
+    top: 8vh;
     left: 5vw;
     background-color: white;
     z-index: 3;
     border-radius: 30px;
     border: 2px solid #da5863;
+    overflow-y: scroll;
+    padding-bottom: 15px;
 }
 
 .modalNameCake {
